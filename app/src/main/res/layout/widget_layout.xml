@@ -15,7 +15,8 @@
         android:gravity="center"
         android:padding="8dp"
         android:background="@color/orange08"
-        android:elevation="@dimen/widget_banner_elevation">
+        android:elevation="@dimen/widget_banner_elevation"
+        android:textColor="@android:color/primary_text_light">
     </TextView>
     <FrameLayout
         android:layout_width="match_parent"
