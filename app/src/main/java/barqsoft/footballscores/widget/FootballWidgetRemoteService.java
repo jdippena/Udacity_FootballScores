@@ -74,6 +74,7 @@ public class FootballWidgetRemoteService extends RemoteViewsService {
             }
 
             RemoteViews rv = new RemoteViews(getPackageName(), R.layout.widget_list_item);
+            rv.setEmptyView(R.id.widget_list_view, R.id.widget_empty_view);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH_MR1) {
                 rv.setContentDescription(R.id.widget_score_card, contentDescription);
             }

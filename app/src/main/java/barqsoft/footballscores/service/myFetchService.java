@@ -86,6 +86,7 @@ public class myFetchService extends IntentService
                 return;
             }
             JSON_data = buffer.toString();
+            //Log.d(LOG_TAG, JSON_data);
         }
         catch (Exception e)
         {
