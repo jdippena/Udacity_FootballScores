@@ -20,7 +20,7 @@
     </TextView>
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:padding="@dimen/widget_margin"
         android:layout_weight="1">
         <ListView
@@ -35,5 +35,6 @@
         android:id="@+id/widget_empty_view"
         android:gravity="center_horizontal"
         android:textColor="@android:color/black"
+        android:visibility="gone"
         android:text="@string/empty_view_text"/>
 </LinearLayout>

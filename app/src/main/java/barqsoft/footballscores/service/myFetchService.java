@@ -111,13 +111,13 @@ public class myFetchService extends IntentService
         try {
             if (JSON_data != null) {
                 //This bit is to check if the data contains any matches. If not, we call processJson on the dummy data
-                JSONArray matches = new JSONObject(JSON_data).getJSONArray("fixtures");
+                /*JSONArray matches = new JSONObject(JSON_data).getJSONArray("fixtures");
                 if (matches.length() == 0) {
                     //if there is no data, call the function on dummy data
                     //this is expected behavior during the off season.
                     processJSONdata(getString(R.string.dummy_data), getApplicationContext(), false);
                     return;
-                }
+                }*/
 
 
                 processJSONdata(JSON_data, getApplicationContext(), true);
@@ -192,12 +192,12 @@ public class myFetchService extends IntentService
                 //add leagues here in order to have them be added to the DB.
                 // If you are finding no data in the app, check that this contains all the leagues.
                 // If it doesn't, that can cause an empty DB, bypassing the dummy data routine.
-                if(     League.equals(PREMIER_LEAGUE)      ||
+                /*if(     League.equals(PREMIER_LEAGUE)      ||
                         League.equals(SERIE_A)             ||
                         League.equals(BUNDESLIGA1)         ||
                         League.equals(BUNDESLIGA2)         ||
                         League.equals(PRIMERA_DIVISION)     )
-                {
+                {*/
                     match_id = match_data.getJSONObject(LINKS).getJSONObject(SELF).
                             getString("href");
                     match_id = match_id.replace(MATCH_LINK, "");
@@ -248,17 +248,17 @@ public class myFetchService extends IntentService
                     match_values.put(DatabaseContract.scores_table.MATCH_DAY,match_day);
                     //log spam
 
-                    //Log.v(LOG_TAG,match_id);
-                    //Log.v(LOG_TAG,mDate);
-                    //Log.v(LOG_TAG,mTime);
-                    //Log.v(LOG_TAG,Home);
+                    //Log.v(LOG_TAG + "Match ID",match_id);
+                    //Log.v(LOG_TAG + "Date",mDate);
+                    //Log.v(LOG_TAG + "Time",mTime);
+                    //Log.v(LOG_TAG + "Home",Home);
                     //Log.v(LOG_TAG,Away);
                     //Log.v(LOG_TAG,Home_goals);
                     //Log.v(LOG_TAG,Away_goals);
 
                     values.add(match_values);
                 }
-            }
+            //}
 
             int inserted_data = 0;
             ContentValues[] insert_data = new ContentValues[values.size()];

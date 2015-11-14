@@ -2,11 +2,18 @@
 <items version="2" >
 
     <item
-        jar="/Users/Jaco/Android/Workspace/Football_Scores-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jar="/Users/Jaco/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/Jaco/Android/Workspace/Football_Scores-master/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-8e9e8f0707ffe5eb8fe80709be7d1375d76868e8.jar" />
+    </item>
+    <item
+        jar="/Users/Jaco/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/Users/Jaco/Android/Workspace/Football_Scores-master/app/build/intermediates/pre-dexed/debug/classes-b721e58d6b2f23bfc934c6d8e549787f5df7335c.jar" />
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/Jaco/Android/Workspace/Football_Scores-master/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-8e9e8f0707ffe5eb8fe80709be7d1375d76868e8.jar" />
     </item>
     <item
         jar="/Users/Jaco/Android/Workspace/Football_Scores-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
@@ -16,13 +23,6 @@
         <dex dex="/Users/Jaco/Android/Workspace/Football_Scores-master/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-ce83d7acff6631d193623ca644881a11b8c3e5fd.jar" />
     </item>
     <item
-        jar="/Users/Jaco/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/Users/Jaco/Android/Workspace/Football_Scores-master/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-8e9e8f0707ffe5eb8fe80709be7d1375d76868e8.jar" />
-    </item>
-    <item
         jar="/Users/Jaco/Android/Workspace/Football_Scores-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
@@ -30,11 +30,11 @@
         <dex dex="/Users/Jaco/Android/Workspace/Football_Scores-master/app/build/intermediates/pre-dexed/debug/classes-a957777c05705798beb79f46b9f0e12fb8246b2f.jar" />
     </item>
     <item
-        jar="/Users/Jaco/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jar="/Users/Jaco/Android/Workspace/Football_Scores-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/Users/Jaco/Android/Workspace/Football_Scores-master/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-8e9e8f0707ffe5eb8fe80709be7d1375d76868e8.jar" />
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/Jaco/Android/Workspace/Football_Scores-master/app/build/intermediates/pre-dexed/debug/classes-b721e58d6b2f23bfc934c6d8e549787f5df7335c.jar" />
     </item>
 
 </items>
